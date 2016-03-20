@@ -54,7 +54,6 @@ class GeneratedTopo( Topo ):
         Amsterdam_host = self.addHost( 'h8' )
         Frankfurt_host = self.addHost( 'h9' )
         Houston_host = self.addHost( 'h10' )
-        None_host = self.addHost( 'h11' )
         Paris_host = self.addHost( 'h12' )
         Dallas_host = self.addHost( 'h13' )
         Austin_host = self.addHost( 'h14' )
