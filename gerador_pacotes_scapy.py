@@ -2,7 +2,6 @@ from scapy.all import *
 
 cont1 = 10
 cont2 = 10
-cont3 = 10
 
 while cont1 > 0:
  packet1 = IP(dst="10.0.0.2")/ICMP()/"Helloooo!"
