@@ -134,7 +134,7 @@ def setupNetwork(controller_ip):
     topo = GeneratedTopo()
     if controller_ip == '':
         #controller_ip = '10.0.2.2';
-        controller_ip = '192.168.1.2';
+        controller_ip = '192.168.168.1';
     net = Mininet(topo=topo, controller=lambda a: RemoteController( a, ip=controller_ip, port=6653 ), host=CPULimitedHost, link=TCLink)
     return net
 def connectToRootNS( network, switch, ip, prefixLen, routes ):
